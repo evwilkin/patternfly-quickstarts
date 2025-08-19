@@ -14,32 +14,7 @@ export const Nav: NavInterface[] = [
     id: 'custom-catalog',
     name: 'Resources (custom catalog)',
     to: '/',
-  },
-  {
-    id: 'quickstarts-localized',
-    name: 'Quick starts localized',
-    to: '/quickstarts-localized',
-  },
-  {
-    id: 'quickstarts-props',
-    name: 'Quick starts (props)',
-    to: '/quickstarts-props',
-  },
-  {
-    id: 'quickstarts',
-    name: 'Quick starts (context)',
-    to: '/quickstarts-context',
-  },
-  {
-    id: 'in-app-documentation',
-    name: 'In-app documentation',
-    to: '/in-app-documentation',
-  },
-  {
-    id: 'custom-drawer',
-    name: 'With custom drawer',
-    to: '/quickstarts-drawer',
-  },
+  }
 ];
 
 export default Nav;
